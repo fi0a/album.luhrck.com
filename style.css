@@ -1,0 +1,67 @@
+body {
+    font-family: serif;
+    background-color: #111111;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    max-width: 750px;
+    flex-direction: column;
+    align-items: center;
+}
+
+main span {
+    font-size: 1.1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: #eeeeee;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    color: #dddddd;
+    line-height: 1.6;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+a {
+    color: #8ab4f8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.images {
+    padding-top: 8px;
+    column-count: 1;
+    column-gap: 8px;
+}
+
+.images img {
+    width: 100%;
+    margin-bottom: 8px;
+    break-inside: avoid-column;
+    display: block;
+    background-color: #333333;
+}
+
+.land {
+    height: 500px;
+}
+
+.port {
+    height: 1125px;
+}
